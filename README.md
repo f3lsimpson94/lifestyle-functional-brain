@@ -15,3 +15,10 @@ Analysis repository accompanying PhD Paper 1 on dietary patterns, cardiometaboli
 - `outputs/` Exported figures and tables (final versions where included)
 - `data/` Folder placeholder used for local organisation only
 
+## Notebooks (run order)
+1. `notebooks/01_connectivity_construction.ipynb`
+2. `notebooks/02_pls_primary_analysis.ipynb`
+3. `notebooks/03_secondary_interpretation.ipynb`
+4. `notebooks/04_connectogram.ipynb`
+5. `notebooks/05_heatmap.ipynb`
+
