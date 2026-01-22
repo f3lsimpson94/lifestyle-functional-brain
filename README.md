@@ -1,18 +1,17 @@
 ﻿# lifestyle-functional-brain
 
-Analysis repository for PhD Paper 1: diet patterns, cardiometabolic risk, and resting-state functional connectivity.
+Analysis repository accompanying PhD Paper 1 on dietary patterns, cardiometabolic risk, and resting-state functional connectivity.
 
-## What is in this repo (for now)
-- Analysis scripts and helper functions (Python)
-- Jupyter notebooks (later, if/when added)
--  MATLAB folder (specifically for BrainNet viewer)
+## Contents
+- Python analysis scripts and helper functions
+- Jupyter notebooks for the main analysis workflow
+- A small MATLAB component for BrainNet Viewer visualisation
 
-
-## Structure
-- notebooks/     Notebook-based analysis workflow (added later)
-- src/           Reusable helper functions for notebooks/scripts
-- scripts/       Run scripts and utilities
-- matlab/        Legacy MATLAB steps (kept contained)
-- outputs/       Figures/tables (optional to track; finals only is recommended)
-- data/          Present for structure only. Data should never be committed.
+## Repository structure
+- `notebooks/` Notebook-based analysis workflow (run order is indicated by prefixes where used)
+- `src/` Reusable helper functions used by notebooks and scripts
+- `scripts/` Utility scripts for repeated tasks
+- `matlab/` BrainNet Viewer and related MATLAB steps (kept contained)
+- `outputs/` Exported figures and tables (final versions where included)
+- `data/` Folder placeholder used for local organisation only
 
