@@ -1,0 +1,79 @@
+﻿# --------------------
+# NEVER COMMIT DATA
+# --------------------
+data/
+**/data/
+**/raw/
+**/interim/
+**/processed/
+
+# Common data formats (block everywhere)
+**/*.csv
+**/*.tsv
+**/*.xlsx
+**/*.xls
+**/*.parquet
+**/*.feather
+**/*.sav
+**/*.dta
+**/*.rds
+**/*.pkl
+**/*.pickle
+**/*.h5
+**/*.hdf5
+**/*.mat
+**/*.nii
+**/*.nii.gz
+**/*.txt
+**/*.json
+
+# If you later want to allow specific non-sensitive files,
+# we can add explicit exceptions.
+
+# --------------------
+# Outputs (optional)
+# --------------------
+outputs/
+matlab/outputs/
+
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+env/
+venv/
+.conda/
+
+# --------------------
+# VS Code / OS
+# --------------------
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# --------------------
+# MATLAB
+# --------------------
+*.asv
+*.m~
+slprj/
+codegen/
+
+# --------------------
+# Local configs / secrets
+# --------------------
+config/paths.yaml
+.env
